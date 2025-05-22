@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+
+#timer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#mainframe{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#timertext{
+    margin:auto auto auto auto;
+    font-size: 100px;
+    font-family: "Martian Mono", monospace;
+}
+
+#settingsButton{
+    background-color:white;
+    height: 50px;
+    width:  50px;
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background-color 0.3s ease;;
+
+    /* vertical-align: middle; */
+}
+
+#settingsButton:hover img{
+    background-color: rgb(183, 183, 183);
+    border-radius: 5px;
+}
+
+body {
+    overflow: scroll; 
+    scrollbar-width: none;  
+    -ms-overflow-style: none; 
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
